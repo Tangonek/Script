@@ -357,7 +357,7 @@ DRR["2e"]["Position"] = UDim2.new(0.3991934061050415, 0, 0.33447495102882385, 0)
 -- DrRay.MainBar.Logo.UIGradient
 DRR["2f"] = Instance.new("UIGradient", DRR["2e"]);
 DRR["2f"]["Rotation"] = 90;
-DRR["2f"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(5, 6, 23))};
+DRR["2f"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(114, 98, 70))};
 
 -- DrRay.Folder
 DRR["30"] = Instance.new("Folder", DRR["1"]);
@@ -1283,7 +1283,7 @@ UILIB.__index = UILIB
 local listening = false
 local twServ = game:GetService("TweenService")
 local UIS = game:GetService("UserInputService")
-local GlobalColor1 = Color3.fromRGB(39, 44, 61)
+local GlobalColor1 = Color3.fromRGB(44, 38, 28)
 local GlobalColor2 = Color3.fromRGB(0, 255, 38)
 local closed = false
 
@@ -1418,7 +1418,7 @@ function UILIB:Load(name, img, direction)
 		for i,v in pairs(parent:GetChildren()) do
 			if v:IsA("GuiObject") then
 				pcall(function()
-					if v.BackgroundColor3 == Color3.fromRGB(39, 44, 61) then
+					if v.BackgroundColor3 == Color3.fromRGB(44, 38, 28) then
 						v.BackgroundColor3 = color
 						GlobalColor1 = color
 					elseif v.BackgroundColor3 == Color3.fromRGB(0, 255, 38) then
