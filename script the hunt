@@ -13,7 +13,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/mai
 
 tab.newButton("The Hunt PIGGY 🐷 (new) ", "Credits To Tora isme", function()
 
-loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNTSTEEP'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNTPiggy'))()
 
  end)
 
