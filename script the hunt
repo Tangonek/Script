@@ -5,7 +5,13 @@ local tab = DrRayLibrary.newTab("The Hunt Scripts", "ImageIdHere")
 local tab2 = DrRayLibrary.newTab("Other Games", "ImageIdHere")
 local tab3 = DrRayLibrary.newTab("Update", "ImageIdHere")
 
-tab.newButton("The Hunt STEEP STEPS (new) ", "Credits To Tora isme", function()
+tab.newButton("The Hunt STEEP STEPS ", "Credits To Tora isme", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNTSTEEP'))()
+
+ end)
+
+tab.newButton("The Hunt PIGGY 🐷 (new) ", "Credits To Tora isme", function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNTSTEEP'))()
 
@@ -16,67 +22,67 @@ tab.newButton("The Hunt Brookhaven🏡", "Credits To Tora isme", function()
 
 end)
 
-tab.newButton("The Hunt Deadly Decisions(new) ", "Credits To Tora isme", function()
+tab.newButton("The Hunt Deadly Decisions", "Credits To Tora isme", function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNTDeadly'))()
 
  end)
 
-tab.newButton("The Hunt a wolf or other 🐺(new) ", "Credits To Tora isme", function()
+tab.newButton("The Hunt a wolf or other 🐺", "Credits To Tora isme", function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNTWolf'))()
 
  end)
 
-tab.newButton("The Hunt survive the killer 🔪(new) ", "Credits To Tora isme", function()
+tab.newButton("The Hunt survive the killer 🔪", "Credits To Tora isme", function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNTKiller'))()
 
  end)
 
-tab.newButton("The Hunt toilet tower 5 🚽 (new) ", "Credits To Tora isme", function()
+tab.newButton("The Hunt toilet tower 5 🚽", "Credits To Tora isme", function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNTToiletTower'))()
 
  end)
 
-tab.newButton("The Hunt dungeon quest (new) ", "Credits To Tora isme", function()
+tab.newButton("The Hunt dungeon quest", "Credits To Tora isme", function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNTDungeon'))()
 
  end)
 
-tab.newButton("The Hunt 3008 (new) ", "Credits To Tora isme", function()
+tab.newButton("The Hunt 3008", "Credits To Tora isme", function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNT3008'))()
 
  end)
 
-tab.newButton("The Hunt spray paint 🎨 (new) ", "Credits To Tora isme", function()
+tab.newButton("The Hunt spray paint 🎨", "Credits To Tora isme", function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNTSpray'))()
 
  end)
 
-tab.newButton("The Hunt murder vs sheriff  (new) ", "???", function()
+tab.newButton("The Hunt murder vs sheriff", "???", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Deni210/murdersvssherrifsduels/main/rubyhub", true))()
 
  end)
 
-tab.newButton("The Hunt dungeon quest  (new) ", "Credits To Tora isme", function()
+tab.newButton("The Hunt dungeon quest", "Credits To Tora isme", function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNTDungeon'))()
 
  end)
 
-tab.newButton("The Hunt Driving Empire (new) ", "Credits To Tora isme", function()
+tab.newButton("The Hunt Driving Empire", "Credits To Tora isme", function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNTEmpire'))()
 
  end)
 
-tab.newButton("The Hunt BARRY'S PRISON RUN OBBY! (new) ", "Credits To Tora isme", function()
+tab.newButton("The Hunt BARRY'S PRISON RUN OBBY!", "???", function()
 
 game:GetService("ReplicatedStorage").Events2024.AwardBadge:FireServer()
 
