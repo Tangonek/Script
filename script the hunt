@@ -81,3 +81,119 @@ tab.newButton("The Hunt Bike of Hell", "Credits To Tora isme", function()
   loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/BikeofHell'))()
 
 end)
+
+tab.newButton("The Hunt Roblox Club", "Credits To Tora isme", function()
+
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(674, 114, 258)
+
+end)
+
+tab.newButton("The Hunt Snow Board Obby", "Credits To Tora isme", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/Snowboard'))()
+
+end)
+
+tab.newButton("The Hunt Escape The Running Head", "Credits To Tora isme", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNTRunningHead'))()
+
+end)
+
+tab.newButton("The Hunt Obby but You Are a Bike 🚲", "Credits To Tora isme", function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/ObbyBike'))();
+
+end)
+
+tab.newButton("The Hunt Natural Disaster Survival", "Credits To Tora isme", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNTNDS'))()
+
+end)
+
+tab.newButton("The Hunt Sonic Speed Simulator Instructions: Goto the Hunt portal then execute it", "Credits To Tora isme", function()
+
+  local args = {
+    [1] = "AddEventPodiumProgress",
+    [2] = "CollectTimeStones",
+    [3] = 100
+}
+game:GetService("ReplicatedStorage").Knit.Services.MapStateService.RE.OnStateAction:FireServer(unpack(args))
+
+end)
+
+tab.newButton("The Hunt Car Dealership ", "Credits To Tora isme", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNTCarDealership'))()
+
+end)
+
+tab.newButton("The Hunt The Mimic ☠️", "Credits To Tora isme", function()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNTTheMimic'))()
+
+end)
+
+tab.newButton("The Hunt Escape Barry's Prison. As soon as u join execute this script ", "Credits To Tora isme", function()
+
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNTNDS'))()
+
+end)
+
+tab.newButton("The Hunt Need More Friends  ", "Credits To Tora isme", function()
+
+loadstring(game:HttpGet(('https://pastefy.app/O1TvLreD/raw'),true))()
+
+end)
+
+tab.newButton("The Hunt Doors 🚪", "Credits To Tora isme", function()
+
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
+
+end)
+
+tab.newButton("The Hunt Carry A Friend 🌈", "Credits To Tora isme", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNTCarry'))()  
+  
+end)
+
+tab.newButton("The Hunt Legends of Speed ", "Credits To Tora isme", function()
+
+         while true do wait()
+local args = {
+    [1] = "collectOrb",
+    [2] = "Red Orb",
+    [3] = "City"
+}
+game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(args))
+end
+
+end)
+
+tab.newButton("The Hunt Funky Friday _AutoPlayer_🎵🎶", "Credits To Nadir and Wally", function()
+
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNTNDS'))()
+
+end)
+
+tab.newButton("The Hunt The Floor Is Lava 🔥", "Credits To Tora Isme", function()
+
+  game:GetService("ReplicatedStorage").Remotes.AwardEvent2:FireServer()
+
+end)
+
+tab.newButton("The Hunt StrongMan Simulator 🤤", "Credits To Tora Isme", function()
+
+  game:GetService("ReplicatedStorage").Remotes.AwardEvent2:FireServer()
+
+end)
+
+tab2.newButton("Blox Fruits", "Best One", function()
+
+  _G.Mode = "Eng" 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AAwful/VectorHub/main/Loader.lua"))()
+
+end)
+
+tab2.newButton("Pls Donate", "My user is wafi171 donate to support :( ", function()
+
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/autofarm"))()
+
+end)
+
