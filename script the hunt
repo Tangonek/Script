@@ -4,6 +4,12 @@ local window = DrRayLibrary:Load("BY TANGO", "Default")
 local tab = DrRayLibrary.newTab("The Hunt Scripts", "ImageIdHere")
 local tab2 = DrRayLibrary.newTab("Other Games", "ImageIdHere")
 
+tab.newButton("The Hunt STEEP STEPS (new) ", "Credits To Tora isme", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNTSTEEP'))()
+
+ end)
+
 tab.newButton("The Hunt Brookhaven🏡", "Credits To Tora isme", function()
   loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNTBrookhaven'))()
 
@@ -51,7 +57,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/mai
 
  end)
 
-tab.newButton("The Hunt murder vs sheriff  (new) ", "Credits To Tora isme", function()
+tab.newButton("The Hunt murder vs sheriff  (new) ", "???", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Deni210/murdersvssherrifsduels/main/rubyhub", true))()
 
