@@ -3,6 +3,7 @@ local window = DrRayLibrary:Load("BY TANGO", "Default")
 
 local tab = DrRayLibrary.newTab("The Hunt Scripts", "ImageIdHere")
 local tab2 = DrRayLibrary.newTab("Other Games", "ImageIdHere")
+local tab3 = DrRayLibrary.newTab("Update", "ImageIdHere")
 
 tab.newButton("The Hunt STEEP STEPS (new) ", "Credits To Tora isme", function()
 
@@ -201,3 +202,7 @@ tab2.newButton("Pls Donate", "My user is wafi171 donate to support :( ", functio
 
 end)
 
+tab3.newButton("Update!", "More map scripts have been updated. There are still 
+many map scripts that have not been released yet. I will update more", function()
+
+end)
