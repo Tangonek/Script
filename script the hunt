@@ -1,4 +1,5 @@
 local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Tangonek/Script/main/script%20menu"))()
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Tangonek/warm-isolation/main/warm%20isolation"))()
 local window = DrRayLibrary:Load("BY TANGO", "Default")
 
 local tab = DrRayLibrary.newTab("The Hunt Scripts", "ImageIdHere")
