@@ -1,10 +1,8 @@
 local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Tangonek/Script/main/script%20menu"))()
-local window = DrRayLibrary:Load("DrRay", "Default")
+local window = DrRayLibrary:Load("BY TANGO", "Default")
 
-local tab = DrRayLibrary.newTab("Roblox The Hunt Scripts", "ImageIdHere")
+local tab = DrRayLibrary.newTab("The Hunt Scripts", "ImageIdHere")
 local tab2 = DrRayLibrary.newTab("Other Games", "ImageIdHere")
-local tab3 = DrRayLibrary.newTab("Updates", "ImageIdHere")
-local tab4 = DrRayLibrary.newTab("Showcasers", "ImageIdHere")
 
 tab.newButton("The Hunt Brookhaven🏡", "Credits To Tora isme", function()
   loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/HUNTBrookhaven'))()
