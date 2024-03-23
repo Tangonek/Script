@@ -202,7 +202,6 @@ tab2.newButton("Pls Donate", "My user is wafi171 donate to support :( ", functio
 
 end)
 
-tab3.newButton("Update!", "More map scripts have been updated. There are still 
-many map scripts that have not been released yet. I will update more", function()
+tab3.newButton("Update!", "More map scripts have been updated. There are still many map scripts that have not been released yet. I will update more", function()
 
 end)
