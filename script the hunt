@@ -1,10 +1,15 @@
 local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Tangonek/Script/main/script%20menu"))()
-local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Tangonek/warm-isolation/main/warm%20isolation"))()
 local window = DrRayLibrary:Load("BY TANGO", "Default")
 
 local tab = DrRayLibrary.newTab("The Hunt Scripts", "ImageIdHere")
 local tab2 = DrRayLibrary.newTab("Other Games", "ImageIdHere")
 local tab3 = DrRayLibrary.newTab("Update", "ImageIdHere")
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "WELCOME! 🧸";
+	Text = "BY TANGO";
+	Icon = "rbxthumb://type=Asset&id=16607866349&w=150&h=150"})
+Duration = 5;
 
 tab.newButton("The Hunt STEEP STEPS ", "Credits To Tora isme", function()
 
